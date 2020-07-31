@@ -8,7 +8,7 @@ def key_for_min_value(name_hash)
     binding.pry
     sum = value
     if sum < value
-      
+
       return sum
     elsif value < sum
       min_value_key = key
