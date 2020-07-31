@@ -2,14 +2,17 @@
 # Given a hash with numeric values, return the key for the smallest value
 
 def key_for_min_value(name_hash)
+  min_value = nil
+  min_value_key = nil
   name_hash.each do |key, value|
     sum = value
     if sum < value
       return sum
     elsif value < sum
-      return key
+      min_value_key = key
   #  else
   #    return nil
     end
   end
+  min_value_key
 end
