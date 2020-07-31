@@ -7,7 +7,7 @@ def key_for_min_value(name_hash)
     if sum < value
       return sum
     elsif value < sum
-      return value
+      return key
     else
       return nil
     end
