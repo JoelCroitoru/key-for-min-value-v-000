@@ -8,8 +8,8 @@ def key_for_min_value(name_hash)
       return sum
     elsif value < sum
       return key
-    else
-      return nil
+  #  else
+  #    return nil
     end
   end
 end
