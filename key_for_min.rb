@@ -3,13 +3,7 @@
 
 def key_for_min_value(name_hash)
   name_hash.each do |key, value|
-    sum = value
-    if sum < value
-      return sum
-    elsif value < sum
-      return value
-    else
-      return nil
-    end
+    value.sort
+
   end
 end
